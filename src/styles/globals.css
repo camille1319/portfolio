@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #f6c9f9;
 }
 
 .app {
@@ -12,7 +12,7 @@ body {
 }
 
 .cabecalho {
-  background-color: #3498db;
+  background-color: #db34d3;
   color: white;
   padding: 30px;
   text-align: center;
@@ -51,8 +51,8 @@ body {
 }
 
 .cartao button {
-  background-color: #2ecc71;
-  color: white;
+  background-color: #7c0a6d;
+  color: rgb(218, 29, 211);
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
@@ -61,7 +61,7 @@ body {
 }
 
 .cartao button:hover {
-  background-color: #27ae60;
+  background-color: #c232bb;
 }
 
 .rodape {
@@ -92,7 +92,7 @@ body {
 .favoritos-container {
   margin: 20px;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #e39fe3;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -104,7 +104,7 @@ body {
 }
 
 .projeto-card {
-  background-color: #ffffff;
+  background-color: #f4ddeb;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 15px;
@@ -127,13 +127,13 @@ body {
 }
 
 .favorito-button.add {
-  background-color: #4caf50;
-  color: white;
+  background-color: #f6c2e6;
+  color: rgb(236, 61, 181);
 }
 
 .favorito-button.remove {
   background-color: #f44336;
-  color: white;
+  color: rgb(217, 101, 101);
 }
 
 .favorito-button:hover {
@@ -147,7 +147,7 @@ body {
 }
 
 .favoritos-list li {
-  background-color: #e0f7fa;
+  background-color: #c9e8ec;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 5px;
@@ -170,6 +170,11 @@ body {
 
 .explodir {
   animation: explosao 0.5s; /* Adiciona a animação de explosão */
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
 }
 
 @keyframes explosao {
